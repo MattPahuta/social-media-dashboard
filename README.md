@@ -6,6 +6,7 @@ This is a solution to the [Social media dashboard with theme switcher challenge 
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
+  - [Requirements](#requirments)
   - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
@@ -25,6 +26,17 @@ Users should be able to:
 - View the optimal layout for the site depending on their device's screen size
 - See hover states for all interactive elements on the page
 - Toggle color theme to their preference
+
+### Requirments
+
+- light/dark mode toggle
+- local storage for mode preference memory
+- CSS variables
+- prefers-color-scheme media query
+Accessibility
+- accessible content (accessibility standards)
+- proper heading levels
+- screenreader only text
 
 ### Screenshot
 
@@ -74,7 +86,7 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
+- [freeCodeCamp with Jessica Chan](https://www.youtube.com/watch?v=krfUjg0S2uI) - Jessica produced this excellent tutorial for FreeCodeCamp where she works through this project design. 
 - [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
 
 
