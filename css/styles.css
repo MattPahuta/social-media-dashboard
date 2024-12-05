@@ -5,9 +5,8 @@ Date: December 2024
 */
 /* Custom Variables */
 :root {
-  
   /* Fonts */
-
+  --ff-primary: "Inter", sans-serif;
   /* Font Sizes */
 
   /* Colors */
@@ -54,6 +53,25 @@ p, h1, h2, h3, h4, h5, h6 {
 
 #root, #__next {
   isolation: isolate;
+}
+
+/* Utilities */
+.visually-hidden:not(:focus):not(:active) {
+  clip: rect(0 0 0 0); 
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap; 
+  width: 1px;
+}
+
+.container {
+  max-width: 1110px;
+}
+
+.grid {
+  display: grid;
 }
 
 /* BASE STYLES */

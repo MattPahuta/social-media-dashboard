@@ -22,7 +22,7 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
+    <header class="header container">
       <div class="title-container">
         <h1>Social Media Dashboard</h1>
         <p>Total Followers: 23,004</p>
@@ -35,143 +35,168 @@
       </div>
     </header>
     <main>
-      <section class="totals">
-        <div class="totals-grid">
+      <section class="totals-section container">
+        <h2 class="visually-hidden">Overview - Totals</h2>
+        <ul class="totals-list grid">
           <!-- total card 1 -->
-          <div class="card totals-card">
+          <li class="card totals-card">
             <div class="totals-card__header">
-              <img src="" alt="" />
-              <p class="handle">@nathanf</p>
+              <h3>
+                <img
+                  src="./images/icon-facebook.svg"
+                  alt="Facebook" />
+              </h3>
+              <p class="handle">
+                <span class="visually-hidden">Username:</span>@nathanf
+              </p>
             </div>
             <p class="total">1987</p>
             <p class="total-label">Followers</p>
             <p class="total-trend">12 Today</p>
-          </div>
+          </li>
           <!-- total card 2 -->
-          <div class="card totals-card">
+          <li class="card totals-card">
             <div class="totals-card__header">
-              <img src="" alt="" />
-              <p class="handle">@nathanf</p>
+              <h3>
+                <img
+                  src="./images/bluesky-brands-solid.svg"
+                  alt="Bluesky" />
+              </h3>
+              <p class="handle">
+                <span class="visually-hidden">Username:</span>@nathanf
+              </p>
             </div>
             <p class="total">1044</p>
             <p class="total-label">Followers</p>
             <p class="total-trend">99 Today</p>
-          </div>
+          </li>
           <!-- total card 3 -->
-          <div class="card totals-card">
+          <li class="card totals-card">
             <div class="totals-card__header">
-              <img src="" alt="" />
-              <p class="handle">@realnathanf</p>
+              <h3>
+                <img
+                  src="./images/icon-instagram.svg"
+                  alt="Instagram" />
+              </h3>
+              <p class="handle">
+                <span class="visually-hidden">Username:</span
+                >@realnathanf
+              </p>
             </div>
             <p class="total">11k</p>
             <p class="total-label">Followers</p>
             <p class="total-trend">1099 Today</p>
-          </div>
+          </li>
           <!-- total card 4 -->
-          <div class="card totals-card">
+          <li class="card totals-card">
             <div class="totals-card__header">
-              <img src="" alt="" />
-              <p class="handle">Nathan F.</p>
+              <h3>
+                <img src="./images/icon-youtube.svg" alt="YouTube" />
+              </h3>
+              <p class="handle">
+                <span class="visually-hidden">Username:</span>Nathan
+                F.
+              </p>
             </div>
             <p class="total">8239</p>
             <p class="total-label">Subscribers</p>
             <p class="total-trend">144</p>
-          </div>
-        </div>
+          </li>
+        </ul>
       </section>
-
-      <section class="daily-overview">
+      <!-- Daily overview cards -->
+      <section class="daily-overview-section container">
         <h2>Today Overview - Today</h2>
-        <div class="daily-overview__grid">
+        <ul class="overview-list grid">
           <!-- overview card 1 -->
-          <div class="overview-card">
-            <div class="overview-card-header">
+          <li class="overview-card">
+            <div class="overview-card-header"> 
               <h3>Page Views</h3>
-              <img src="" alt="" />
+              <img src="./images/icon-facebook.svg" alt="Facebook" />
             </div>
             <div class="overview-card-data">
               <p>87</p>
-              <p>3%</p>
+              <p class="trend-up">3%</p>
             </div>
-          </div>
+          </li>
           <!-- overview card 2 -->
-          <div class="overview-card">
+          <li class="overview-card">
             <div class="overview-card-header">
               <h3>Likes</h3>
-              <img src="" alt="" />
+              <img src="./images/icon-facebook.svg" alt="Facebook" />
             </div>
             <div class="overview-card-data">
               <p>52</p>
-              <p>2%</p>
+              <p class="trend-down">2%</p>
             </div>
-          </div>
+          </li>
           <!-- overview card 3 -->
-          <div class="overview-card">
+          <li class="overview-card">
             <div class="overview-card-header">
               <h3>Likes</h3>
-              <img src="" alt="" />
+              <img src="./images/icon-instagram.svg" alt="Instagram" />
             </div>
             <div class="overview-card-data">
               <p>5462</p>
-              <p>2257%</p>
+              <p class="trend-up">2257%</p>
             </div>
-          </div>
+          </li>
           <!-- overview card 4 -->
-          <div class="overview-card">
+          <li class="overview-card">
             <div class="overview-card-header">
               <h3>Profile Views</h3>
-              <img src="" alt="" />
+              <img src="./images/icon-instagram.svg" alt="Instagram" />
             </div>
             <div class="overview-card-data">
               <p>52k</p>
-              <p>1375%</p>
+              <p class="trend-up">1375%</p>
             </div>
-          </div>
+          </li>
           <!-- overview card 5 -->
-          <div class="overview-card">
+          <li class="overview-card">
             <div class="overview-card-header">
-              <h3>Retweets</h3>
-              <img src="" alt="" />
+              <h3>Reposts</h3>
+              <img src="./images/bluesky-brands-solid.svg" alt="Bluesky" />
             </div>
             <div class="overview-card-data">
               <p>117</p>
-              <p>303%</p>
+              <p class="trend-up">303%</p>
             </div>
-          </div>
+          </li>
           <!-- overview card 6 -->
-          <div class="overview-card">
+          <li class="overview-card">
             <div class="overview-card-header">
               <h3>Likes</h3>
-              <img src="" alt="" />
+              <img src="./images/bluesky-brands-solid.svg" alt="Bluesky" />
             </div>
             <div class="overview-card-data">
               <p>507</p>
-              <p>553%</p>
+              <p class="trend-up">553%</p>
             </div>
-          </div>
+          </li>
           <!-- overview card 7 -->
-          <div class="overview-card">
+          <li class="overview-card">
             <div class="overview-card-header">
               <h3>Likes</h3>
-              <img src="" alt="" />
+              <img src="./images/icon-youtube.svg" alt="YouTube" />
             </div>
             <div class="overview-card-data">
               <p>107</p>
-              <p>19%</p>
+              <p class="trend-down">19%</p>
             </div>
-          </div>
+          </li>
           <!-- overview card 8 -->
-          <div class="overview-card">
+          <li class="overview-card">
             <div class="overview-card-header">
               <h3>Total Views</h3>
-              <img src="" alt="" />
+              <img src="./images/icon-youtube.svg" alt="YouTube" />
             </div>
             <div class="overview-card-data">
               <p>1407</p>
-              <p>12%</p>
+              <p class="trend-down">12%</p>
             </div>
-          </div>
-        </div>
+          </li>
+        </ul>
       </section>
     </main>
   </body>

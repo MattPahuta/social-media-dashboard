@@ -86,7 +86,7 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ### Useful resources
 
-- [freeCodeCamp with Jessica Chan](https://www.youtube.com/watch?v=krfUjg0S2uI) - Jessica produced this excellent tutorial for FreeCodeCamp where she works through this project design. 
+- [freeCodeCamp with Jessica Chan](https://www.youtube.com/watch?v=krfUjg0S2uI) - Jessica produced this excellent tutorial for FreeCodeCamp where she works through this project design. I only ended up skimming this tutorial, but it's clearly very comprehensive and the quality is typically excellent coming from CoderCoder so a great resource for learners (especially if you use Sass like she is, which I was not).
 - [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
 
 
